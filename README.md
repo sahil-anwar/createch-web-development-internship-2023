@@ -43,8 +43,5 @@ Then visit `http://localhost:8000/projects/broil-king/` or `http://localhost:800
 ## Original work and later maintenance
 The projects originate from internship-era source files. A later **2026 maintenance pass** was made to preserve the existing appearance while improving compatibility, mobile responsiveness, accessibility, and code organization. These later fixes should not be interpreted as features delivered during the 2023 internship. See individual project READMEs for details.
 
-## Internship certificate
-The certificate is not bundled with this repository to avoid publishing personal information. It can be presented separately where appropriate.
-
 ## Limitations and publishing rights
 These are frontend demonstrations, not complete production commerce systems. Brand names, images, fonts, and other assets may be owned by third parties or the internship organization. **Confirm authorization to publicly distribute the source and assets** before making the repository public. Until then, keep the repository private.
