@@ -1,0 +1,20 @@
+/* Progressive fixes layered on the original 2023 design. */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { max-width: 100%; overflow-x: clip; }
+img, video, iframe { max-width: 100%; }
+img { height: auto; }
+:focus-visible { outline: 3px solid #cc3027; outline-offset: 3px; }
+@media (max-width: 991.98px) {
+  .navbar .dropdown-menu { max-width: calc(100vw - 24px); }
+  .navbar-collapse { max-height: min(80vh, 720px); overflow-y: auto; }
+  .container, .container-fluid { max-width: 100%; }
+}
+@media (max-width: 575.98px) {
+  h1 { overflow-wrap: break-word; }
+  .slick, .slick-slider, .carousel { max-width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
