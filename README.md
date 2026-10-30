@@ -33,15 +33,43 @@ Createch_Internship_2023/
     └── PORTFOLIO_SUMMARY.md
 ```
 
-## How to run
+## How to Run
+
 These are static frontend projects. Open each project's `index.html` in a browser, or serve the repository locally:
+
 ```bash
 python -m http.server 8000
 ```
-Then visit `http://localhost:8000/projects/broil-king/` or `http://localhost:8000/projects/botiga/`.
 
-## Original work and later maintenance
-The projects originate from internship-era source files. A later **2026 maintenance pass** was made to preserve the existing appearance while improving compatibility, mobile responsiveness, accessibility, and code organization. These later fixes should not be interpreted as features delivered during the 2023 internship. See individual project READMEs for details.
+Then visit:
+- **Broil King:** http://localhost:8000/projects/broil-king/
+- **Botiga:** http://localhost:8000/projects/botiga/
 
-## Limitations and publishing rights
-These are frontend demonstrations, not complete production commerce systems. Brand names, images, fonts, and other assets may be owned by third parties or the internship organization. **Confirm authorization to publicly distribute the source and assets** before making the repository public. Until then, keep the repository private.
+## Original Work and Later Maintenance
+
+The projects originate from internship-era source files developed during the **Createch IT Solutions Web Development Internship (2023)**.
+
+A later **2026 maintenance pass** was made to preserve the existing appearance while improving compatibility, mobile responsiveness, accessibility, and code organization.
+
+These later improvements should not be interpreted as features originally delivered during the 2023 internship.
+
+See individual project README files for further details.
+
+## Contributors
+
+| Contributor | Role | GitHub Profile |
+|---|---|---|
+| **Sahil Anwar** | Project Maintainer | [@sahil-anwar](https://github.com/sahil-anwar) |
+| **Mashaal Ishtiaq** | Collaborator | [@mashaal-ishtiaq](https://github.com/mashaal-ishtiaq) |
+
+Contributors and collaborators are acknowledged for their respective roles in maintaining and improving this repository. Inclusion here does not imply authorship of the original 2023 internship projects.
+
+## Limitations and Publishing Rights
+
+These projects are frontend demonstrations, not complete production commerce systems.
+
+Brand names, images, fonts, and other assets may be owned by third parties or the internship organization.
+
+**Confirm authorization to publicly distribute the source code and assets before making the repository public. Until then, keep the repository private.**
+
+Project ownership, original authorship, and third-party intellectual property rights remain with their respective owners.
