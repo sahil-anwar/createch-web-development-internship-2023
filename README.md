@@ -33,7 +33,7 @@ Createch_Internship_2023/
     └── PORTFOLIO_SUMMARY.md
 ```
 
-## How to run
+## How to run.
 These are static frontend projects. Open each project's `index.html` in a browser, or serve the repository locally:
 ```bash
 python -m http.server 8000
